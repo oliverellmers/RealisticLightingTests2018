@@ -46,6 +46,14 @@ ModelImporter:
     4300010: Tap Drill for M8 Tap1_2
     4300012: <Leg>-<Tap Drill for M8 Tap1>
     4300014: Revolve1
+    6400000: <Front Leg>-<Tap Drill for M8 Tap1>
+    6400002: <Leg>-<Tap Drill for M8 Tap1>
+    6400004: cosmetic-fillet-felt
+    6400006: cosmetic-fillet-felt_2
+    6400008: Object_1
+    6400010: Revolve1
+    6400012: Tap Drill for M8 Tap1
+    6400014: Tap Drill for M8 Tap1_2
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -79,7 +87,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
