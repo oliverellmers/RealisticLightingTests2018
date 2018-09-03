@@ -65,9 +65,9 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SrcBlend: 1
-    - _U: 2560
+    - _U: 7680
     - _UVSec: 0
-    - _V: 1440
+    - _V: 4320
     - _ZWrite: 1
     - _textureHeight: 2048
     - _textureWidth: 2048
