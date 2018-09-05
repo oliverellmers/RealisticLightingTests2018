@@ -14,13 +14,17 @@ public class ScreenshotTaker : MonoBehaviour
 
     }
 
+    int i = 0;
+
     private void Update()
     {
+        
         if (Input.GetKeyDown(takeScreenshotKey))
         {
             ScreenCapture.CaptureScreenshot("Screenshots/"
-                 + "_" + screenshotCount + "_" + Screen.width + "X" + Screen.height + "" + ".png");
+                 + "_" + screenshotCount + "_" + Screen.width + "X" + Screen.height + "_" + i +  ".png");
             Debug.Log("Screenshot taken.");
+            i++;
         }
     }
 }

@@ -1,0 +1,79 @@
+fileFormatVersion: 2
+guid: b09d3aa52d4bdfe469fc6ccdcffe8259
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Zubra_Material/Zubra_Material
+    400000: Zubra_Material/Zubra_Material/Transform
+    2100000: mat.Zubra_Material_
+    2300000: Zubra_Material/Zubra_Material/MeshRenderer
+    2800000: Zubra_Material__Base Color
+    2800002: Zubra_Material__Normal
+    2800004: Zubra_Material__Metallic
+    2800006: Zubra_Material__ambientOcclusion
+    3300000: Zubra_Material/Zubra_Material/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: Zubra_Material/Zubra_Material/SphereCollider
+    100100000: Zubra_Material
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  mGraphInstanceData:
+  - graphLabel: Zubra_Material_
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Zubra_Material_\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: Base Color,Normal,Metallic,ambientOcclusion
+    texturePackingList:
+    - outputName: Base Color
+      alphaSource: Base Color
+    - outputName: Normal
+      alphaSource: Normal
+    - outputName: Roughness
+      alphaSource: Roughness
+    - outputName: Metallic
+      alphaSource: Smoothness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    colorSpaceList:
+    - outputName: Base Color
+      bLinear: 0
+    - outputName: Normal
+      bLinear: 1
+    - outputName: Roughness
+      bLinear: 1
+    - outputName: Metallic
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    - label: Standalone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    - label: iPhone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    material: {instanceID: 0}
